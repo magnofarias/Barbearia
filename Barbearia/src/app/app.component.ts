@@ -9,14 +9,14 @@ import { HistoricoclienteComponent } from './Pages/historicocliente/historicocli
 import { HistoricofinanceiroComponent } from './Pages/historicofinanceiro/historicofinanceiro.component';
 import { LoginComponent } from './Pages/login/login.component';
 import { HistoricoprodutosComponent } from './Pages/historicoprodutos/historicoprodutos.component';
-
+import { NgOptimizedImage } from '@angular/common'
 
 @Component({
   selector: 'app-root',
   
   imports: [RouterOutlet, PanelMenuModule, SidebarComponent, CadastrobarbeiroComponent, 
             CadastroclienteComponent, CadastroprodutosComponent, HistoricoclienteComponent, HistoricofinanceiroComponent,
-           LoginComponent, HistoricoprodutosComponent
+           LoginComponent, HistoricoprodutosComponent, NgOptimizedImage
           ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

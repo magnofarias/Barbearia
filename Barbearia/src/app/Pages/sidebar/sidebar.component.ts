@@ -19,9 +19,7 @@ export class SidebarComponent implements OnInit {
               icon: 'pi pi-file',
               items: [
                   {
-                      label: 'Produtos Perifericos',
-                      icon: 'pi-plus',
-                      
+                      label: 'Produtos Perifericos'
                   },
                   {
                       label: 'Barbeiros',
@@ -36,7 +34,7 @@ export class SidebarComponent implements OnInit {
               items: [
                   {
                       label: 'Histórico Financeiro',
-                      icon: 'pi pi-cloud-upload'
+                      icon: 'pi pi-calculator'
                   },
                   {
                       label: 'Histórico Barbeiros',
