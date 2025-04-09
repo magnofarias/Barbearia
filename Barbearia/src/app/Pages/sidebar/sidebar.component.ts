@@ -30,7 +30,7 @@ export class SidebarComponent implements OnInit {
           },
           {
               label: 'Histórico',
-              icon: 'pi pi-cloud',
+              icon: 'pi pi-book',
               items: [
                   {
                       label: 'Histórico Financeiro',
@@ -50,7 +50,7 @@ export class SidebarComponent implements OnInit {
           },
           {
               label: 'Agendamentos',
-              icon: 'pi-search',
+              icon: 'pi pi-address-book',
               items: [
                   {
                       label: 'Cliente',
